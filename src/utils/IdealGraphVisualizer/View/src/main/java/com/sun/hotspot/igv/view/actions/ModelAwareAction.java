@@ -33,7 +33,7 @@ import org.openide.util.Lookup;
 abstract public class ModelAwareAction extends ContextAction<DiagramViewModel> {
 
     public ModelAwareAction() {
-        putValue(Action.SMALL_ICON , ImageUtilities.loadImageIcon(iconResource(), true));
+        putValue(Action.SMALL_ICON, ImageUtilities.loadImageIcon(iconResource(), true));
         putValue(Action.SHORT_DESCRIPTION, getDescription());
     }
 
